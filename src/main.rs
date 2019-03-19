@@ -99,6 +99,10 @@ fn walk(handle: Handle, query: &mut Query ) {
     }
 }
 
+fn counter (mut counter: i32) -> i32 {
+    counter += 1;
+    counter
+}
 struct Query {
     city: String,
     country: String,
